@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TrentinoFloods</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f_home_trentino_floods">Trentino Floods</string>
+    <string name="f_home_subtitle">Esplora i dati dei sensori presenti dei bacini idrici in tempo reale su tutto il territorio!</string>
+    <string name="card_map_subtitle">Visualizza tutti i sensori nella mappa</string>
+    <string name="card_map_title">Mappa Floods</string>
+    <string name="card_search_title">Ricerca</string>
+    <string name="card_search_subtitle">Visualizza i sensori attraverso una ricerca</string>
 </resources>
