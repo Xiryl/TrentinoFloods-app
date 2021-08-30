@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".fragments.HomeFragment">
 
-
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/title"
         android:layout_width="0dp"
@@ -181,5 +180,147 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <!-- END Search -->
+
+    <!-- Recent -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_card_recent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_card_recent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_search">
+
+        <ImageView
+            android:id="@+id/card_recent_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/card_recent_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/card_recent_title"
+            android:textColor="@color/violetblue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/card_recent_subtitle"
+            app:layout_constraintEnd_toStartOf="@+id/card_recent_icon_go"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/card_recent_icon"
+            app:layout_constraintTop_toTopOf="@+id/card_recent_icon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/card_recent_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/card_recent_subtitle"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/card_recent_icon"
+            app:layout_constraintEnd_toStartOf="@+id/card_recent_icon_go"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/card_recent_icon"
+            app:layout_constraintTop_toBottomOf="@+id/card_recent_title" />
+
+        <ImageView
+            android:id="@+id/card_recent_icon_go"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_right"
+            app:layout_constraintBottom_toBottomOf="@+id/card_recent_subtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/card_recent_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- END Recent -->
+
+    <!-- Alert -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_card_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_card_alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_recent">
+
+        <ImageView
+            android:id="@+id/card_alert_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/ic_warning"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/card_alert_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/card_alert_title"
+            android:textColor="@color/violetblue"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/card_alert_subtitle"
+            app:layout_constraintEnd_toStartOf="@+id/card_alert_icon_go"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/card_alert_icon"
+            app:layout_constraintTop_toTopOf="@+id/card_alert_icon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/card_alert_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/card_alert_subtitle"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/card_alert_icon"
+            app:layout_constraintEnd_toStartOf="@+id/card_alert_icon_go"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/card_alert_icon"
+            app:layout_constraintTop_toBottomOf="@+id/card_alert_title" />
+
+        <ImageView
+            android:id="@+id/card_alert_icon_go"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_arrow_right"
+            app:layout_constraintBottom_toBottomOf="@+id/card_alert_subtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/card_alert_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- END Alert -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
