@@ -1,7 +1,8 @@
-package it.chiarani.trentinofloods
+package it.chiarani.trentinofloods.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import it.chiarani.trentinofloods.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
