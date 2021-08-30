@@ -10,8 +10,13 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_HomeFragment_to_placeholder"
-            app:destination="@id/placeholder" />
+            android:id="@+id/action_homefragment_to_searchfragment"
+            app:destination="@id/SearchFragment"
+            app:popUpTo="@id/HomeFragment" />
     </fragment>
-    <fragment android:id="@+id/placeholder" />
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="it.chiarani.trentinofloods.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
 </navigation>
