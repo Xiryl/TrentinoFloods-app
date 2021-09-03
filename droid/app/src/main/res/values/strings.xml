@@ -12,4 +12,5 @@
     <string name="card_recent_subtitle">Visualizza i sensori dell\'ultima ricerca</string>
     <string name="card_alert_title">Allerte PAT</string>
     <string name="card_alert_subtitle">Visualizza le ultime allerte emanate</string>
+    <string name="bottom_sheet_title"><![CDATA[Info & Aiuto]]></string>
 </resources>

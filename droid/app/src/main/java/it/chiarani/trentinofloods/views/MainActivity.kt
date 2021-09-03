@@ -2,8 +2,7 @@ package it.chiarani.trentinofloods.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.fragment.findNavController
+import com.google.android.material.bottomsheet.BottomSheetBehavior
 import it.chiarani.trentinofloods.R
 import it.chiarani.trentinofloods.databinding.ActivityMainBinding
 
@@ -17,5 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
     }
 }
