@@ -33,6 +33,7 @@
             android:id="@+id/card_search_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="36dp"
             android:fontFamily="@font/roboto_bold"
             android:gravity="center"
             android:text="@string/card_search_title"
@@ -44,6 +45,32 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <!-- END TopBar -->
+
+    <!-- Search View-->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:iconifiedByDefault="false"
+        android:animateLayoutChanges="true"
+        app:queryHint="Ricerca per bacino idrico"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_searchview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_search" />
+
+    <ListView
+        android:id="@+id/search_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
