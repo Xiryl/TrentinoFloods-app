@@ -1,3 +1,5 @@
+package it.chiarani.trentinofloods.data
+
 data class Properties (
 	val idsensore : Int,
 	val idstazione : Int,

@@ -1,3 +1,5 @@
+package it.chiarani.trentinofloods.data
+
 data class Features (
 
 	val type : String,

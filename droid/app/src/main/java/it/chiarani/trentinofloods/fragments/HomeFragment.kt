@@ -2,18 +2,21 @@ package it.chiarani.trentinofloods.fragments
 
 import android.os.Bundle
 import android.view.View
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
+import dagger.hilt.android.AndroidEntryPoint
 import it.chiarani.trentinofloods.R
 import it.chiarani.trentinofloods.databinding.FragmentHomeBinding
+import it.chiarani.trentinofloods.viewModels.FloodsViewModel
 
+@AndroidEntryPoint
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private lateinit var binding: FragmentHomeBinding
     private lateinit var bottomSheetBehavior: BottomSheetBehavior<View>
+    private val viewModel: FloodsViewModel by activityViewModels()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -26,6 +29,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
          }
 
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
+
+        viewModel.idrometerData.observe(viewLifecycleOwner) {
+            val c = it.crs
+            val a = c.type
+        }
     }
 
     override fun onResume() {
@@ -42,5 +50,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         bottomSheetBehavior.isHideable = false
         bottomSheetBehavior.state = BottomSheetBehavior.STATE_DRAGGING
     }
+
 
 }
