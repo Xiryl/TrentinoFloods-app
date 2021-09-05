@@ -47,30 +47,80 @@
     <!-- END TopBar -->
 
     <!-- Search View-->
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/search_view"
+    <!--    <androidx.appcompat.widget.SearchView-->
+    <!--        android:id="@+id/search_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="32dp"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        android:animateLayoutChanges="true"-->
+    <!--        android:background="@drawable/bg_searchview"-->
+    <!--        app:iconifiedByDefault="false"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/cl_card_search"-->
+    <!--        app:queryHint="Ricerca per bacino idrico" />-->
+
+    <!--    <ListView-->
+    <!--        android:visibility="gone"-->
+    <!--        android:id="@+id/search_list_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="4dp"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/search_view" />-->
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner_bacini"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        app:iconifiedByDefault="false"
-        android:animateLayoutChanges="true"
-        app:queryHint="Ricerca per bacino idrico"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@drawable/bg_searchview"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cl_card_search" />
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_search"
+        app:smsp_floatingLabelColor="@color/violetblue"
+        app:smsp_floatingLabelText="Bacino"
+        app:smsp_hint="Seleziona un bacino"
+        app:smsp_hintColor="@color/gray"
+        app:smsp_isSearchable="true"
+        app:smsp_itemColor="@color/black"
+        app:smsp_itemListColor="@color/gray"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FF00ff"
+        app:smsp_multilineError="true"
+        app:smsp_searchHeaderBackgroundColor="@color/violetblue"
+        app:smsp_searchHeaderText="Cerca / Seleziona un bacino"
+        app:smsp_selectedItemListColor="@color/violetblue" />
 
-    <ListView
-        android:id="@+id/search_list_view"
-        android:layout_width="wrap_content"
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner_stazione"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_bacini"
+        app:smsp_floatingLabelColor="@color/violetblue"
+        app:smsp_floatingLabelText="Stazione"
+        app:smsp_hint="Seleziona una stazione"
+        app:smsp_hintColor="@color/gray"
+        app:smsp_isSearchable="true"
+        app:smsp_itemColor="@color/black"
+        app:smsp_itemListColor="@color/gray"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FF00ff"
+        app:smsp_multilineError="true"
+        app:smsp_searchHeaderBackgroundColor="@color/violetblue"
+        app:smsp_searchHeaderText="Cerca / Seleziona una Stazione"
+        app:smsp_selectedItemListColor="@color/violetblue" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

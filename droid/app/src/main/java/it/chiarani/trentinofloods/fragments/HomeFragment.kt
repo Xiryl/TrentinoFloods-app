@@ -6,8 +6,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import com.google.android.material.bottomsheet.BottomSheetBehavior
+import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
 import it.chiarani.trentinofloods.R
+import it.chiarani.trentinofloods.data.Idrometer
 import it.chiarani.trentinofloods.databinding.FragmentHomeBinding
 import it.chiarani.trentinofloods.viewModels.FloodsViewModel
 
@@ -29,12 +31,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
          }
 
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
-
-        viewModel.idrometerData.observe(viewLifecycleOwner) {
-            val c = it.crs
-            val a = c.type
-        }
     }
+
+
 
     override fun onResume() {
         super.onResume()
