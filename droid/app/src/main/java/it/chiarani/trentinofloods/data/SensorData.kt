@@ -1,8 +1,8 @@
 package it.chiarani.trentinofloods.data
 
-data class Idrometer (
+data class SensorData (
 	val type : String,
 	val name : String,
 	val crs : Crs,
-	val features : List<Features>
+	val features : MutableList<Features>
 )

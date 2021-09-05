@@ -24,6 +24,6 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideIdrometerApi(retrofit: Retrofit): FloodsApi =
+    fun provideFloodsApi(retrofit: Retrofit): FloodsApi =
         retrofit.create(FloodsApi::class.java)
 }

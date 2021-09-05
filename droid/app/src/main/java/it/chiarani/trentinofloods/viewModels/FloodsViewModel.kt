@@ -1,31 +1,20 @@
 package it.chiarani.trentinofloods.viewModels
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.google.gson.Gson
+import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
-import it.chiarani.trentinofloods.api.FloodsApi
-import it.chiarani.trentinofloods.data.Idrometer
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import it.chiarani.trentinofloods.repository.FloodsRepository
+import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
 
 @HiltViewModel
 class FloodsViewModel @Inject constructor(
-    api: FloodsApi
+    var repository: FloodsRepository
 ) : ViewModel() {
 
-    private val idrometerLiveData = MutableLiveData<Idrometer>()
-
-    // exposed field
-    val idrometerData : LiveData<Idrometer> = idrometerLiveData
-
-    init {
-        viewModelScope.launch {
-            val response = api.getIdrometer0h()
-            idrometerLiveData.value = response
-        }
+    fun getRiverSensorData(sensor: String, arg: String) = liveData(Dispatchers.IO ) {
+        emit(
+            repository.getRiverSensorData(sensor, arg)
+        )
     }
+
 }

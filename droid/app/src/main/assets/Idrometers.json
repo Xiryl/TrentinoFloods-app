@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "name": "Precipitazioni",
+  "name": "Livelli idrometrici",
   "crs": {
     "type": "name",
     "properties": {
@@ -11,90 +11,18 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11956,
-        "idstazione": 180700,
-        "stazione": "Agordo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 635,
-        "gmt": 60,
-        "bacino": "Piave",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11956&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.04027778,
-          46.27777778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 11533,
-        "idstazione": 233900,
-        "stazione": "Alberoni",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 2,
-        "gmt": 60,
-        "bacino": "Scolante Laguna",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11533&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.31027778,
-          45.33833333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 50590,
-        "idstazione": 547400,
-        "stazione": "Asolo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 95,
-        "gmt": 60,
-        "bacino": "NULL",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=50590&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.89472222,
-          45.78583333000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 34093,
+        "idsensore": 34972,
         "idstazione": 402200,
         "stazione": "Astico a Pedescala",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Bubbolatore",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 305,
         "gmt": 60,
         "bacino": "Astico",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34093&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34972&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -107,18 +35,186 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 34098,
+        "idsensore": 34090,
+        "idstazione": 402000,
+        "stazione": "Boite a Cancia",
+        "strumento": "Idrometro",
+        "grandezza": "Bubbolatore",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 882,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34090&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.22222222,
+          46.43111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 34968,
+        "idstazione": 398200,
+        "stazione": "Piave a Ponte Lasta",
+        "strumento": "Idrometro",
+        "grandezza": "Bubbolatore",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 839,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34968&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.52138889,
+          46.5375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28159,
+        "idstazione": 416200,
+        "stazione": "Riva del Garda Parco Cattoi",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Albola",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 78,
+        "gmt": 60,
+        "bacino": "Po\/Mincio",
+        "corpo": "torrente Albola",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28159&Sensore2=42443&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.847608,
+          45.884055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 33585,
+        "idstazione": 402100,
+        "stazione": "Posina a Stancari",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro cliente",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 405,
+        "gmt": 60,
+        "bacino": "Astico",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=33585&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.33583333,
+          45.80583333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11503,
+        "idstazione": 234500,
+        "stazione": "Bussari",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Monte",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 8,
+        "gmt": 60,
+        "bacino": "Fissero",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11503&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7275,
+          44.99166667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11493,
+        "idstazione": 238300,
+        "stazione": "S.Martino B.Albergo",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Monte",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 43,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11493&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.06666667,
+          45.38861111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11626,
+        "idstazione": 175500,
+        "stazione": "Ponte Asse",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro pressione",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 62,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11626&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39972222,
+          45.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 34102,
         "idstazione": 322100,
         "stazione": "Biois a Cencenighe",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Pressione 1 b",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 769,
         "gmt": 60,
         "bacino": "Cordevole\/Piave",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34098&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34102&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -131,186 +227,810 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11804,
+        "idsensore": 32213,
+        "idstazione": 417400,
+        "stazione": "San Bernardo Rabbi",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Rabbies",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1092,
+        "gmt": 60,
+        "bacino": "Adige\/Noce",
+        "corpo": "torrente Rabbies",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32213&Sensore2=38570&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.844507,
+          46.400247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 57229,
+        "idstazione": 397100,
+        "stazione": "Brenta",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Radar",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 452,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "Brentella di Caldonazzo",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=57229&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.273958,
+          46.004858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11504,
+        "idstazione": 234500,
+        "stazione": "Bussari",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Valle",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 8,
+        "gmt": 60,
+        "bacino": "Fissero",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11504&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7275,
+          44.99166667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32215,
+        "idstazione": 417400,
+        "stazione": "San Bernardo Rabbi",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Valorz",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1092,
+        "gmt": 60,
+        "bacino": "Adige\/Noce",
+        "corpo": "torrente Valorz",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32215&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.84414,
+          46.400158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28160,
+        "idstazione": 416200,
+        "stazione": "Riva del Garda Parco Cattoi",
+        "strumento": "Idrometro",
+        "grandezza": "Idrometro Varone",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 78,
+        "gmt": 60,
+        "bacino": "Po\/Mincio",
+        "corpo": "torrente Varone",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28160&Sensore2=42444&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.848612,
+          45.883275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28210,
+        "idstazione": 399800,
+        "stazione": "Ala",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 210,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "torrente Ala",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28210&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.006637,
+          45.758606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11479,
+        "idstazione": 233800,
+        "stazione": "Albaredo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 24,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11479&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.26638889,
+          45.3125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 31071,
+        "idstazione": 395800,
+        "stazione": "Aonè",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 525,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "torrente Centa",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31071&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.249599,
+          45.981591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 50592,
+        "idstazione": 547400,
+        "stazione": "Asolo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 95,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=50592&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.89472222,
+          45.78583333000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28206,
+        "idstazione": 399900,
+        "stazione": "Avio",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 154,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "torrente Aviana",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28206&Sensore2=38557&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.937376,
+          45.731604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11483,
+        "idstazione": 234000,
+        "stazione": "Badia Polesine",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 15,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11483&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.48916667,
+          45.09916667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11380,
+        "idstazione": 234300,
+        "stazione": "Barzizza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 118,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11380&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.73027778,
+          45.77722222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11407,
+        "idstazione": 39400,
+        "stazione": "Belluno",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 346,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11407&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.22833333,
+          46.127222219999986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 34099,
+        "idstazione": 322100,
+        "stazione": "Biois a Cencenighe",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 769,
+        "gmt": 60,
+        "bacino": "Cordevole\/Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34099&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96638889,
+          46.35222222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11930,
+        "idstazione": 130400,
+        "stazione": "Boara Pisani",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 6,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11930&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.78583333,
+          45.100555559999989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 34970,
+        "idstazione": 402000,
+        "stazione": "Boite a Cancia",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 882,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34970&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.22222222,
+          46.43111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11600,
+        "idstazione": 147500,
+        "stazione": "Bolzano Vicentino",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 42,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11600&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.61861111,
+          45.59361111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30785,
+        "idstazione": 399700,
+        "stazione": "Borghetto",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 125,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30785&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.928422,
+          45.703834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 40859,
+        "idstazione": 516200,
+        "stazione": "Borgo Campion",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 97,
+        "gmt": 60,
+        "bacino": "Livenza\/Meschio",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40859&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.34,
+          45.95944444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11805,
         "idstazione": 144600,
         "stazione": "Borgo Valsugana",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 390,
         "gmt": 60,
         "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11804&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Brenta",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11805&Sensore2=18704&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.460042,
-          46.053944
+          11.460107,
+          46.054072
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30789,
-        "idstazione": 395700,
-        "stazione": "Buffaure",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 2326,
+        "idsensore": 11583,
+        "idstazione": 144000,
+        "stazione": "Borgofrassine",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 20,
         "gmt": 60,
-        "bacino": "Adige\/Avisio",
+        "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30789&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11583&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.733183,
-          46.433895
+          11.48416667,
+          45.24416667
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30418,
+        "idsensore": 15998,
+        "idstazione": 213800,
+        "stazione": "Bovolenta",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 10,
+        "gmt": 60,
+        "bacino": "Bacchiglione",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=15998&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.935,
+          45.265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11587,
+        "idstazione": 144100,
+        "stazione": "Brancaglia",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 17,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11587&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.63888889,
+          45.24444444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30749,
+        "idstazione": 416500,
+        "stazione": "Brentella",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 444,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "Brentella di Levico",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30749&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.295833,
+          46.004167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 16811,
+        "idstazione": 211300,
+        "stazione": "Ca' Dolfin",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 9,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16811&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.43444444,
+          44.935833329999987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 16821,
+        "idstazione": 211700,
+        "stazione": "Ca' Venier",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 9,
+        "gmt": 60,
+        "bacino": "Po",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16821&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.33111111,
+          44.95777778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30415,
         "idstazione": 395600,
         "stazione": "Campitello Avisio",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 1403,
         "gmt": 60,
         "bacino": "Adige\/Avisio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30418&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30415&Sensore2=38565&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.74457,
-          46.474659
+          11.744702,
+          46.474532
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11660,
-        "idstazione": 150100,
-        "stazione": "Canal S. Bovo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 32184,
+        "idstazione": 417700,
+        "stazione": "Campitello Duron",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 972,
+        "quota": 1444,
         "gmt": 60,
-        "bacino": "Brenta\/Cismon",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11660&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "bacino": "Adige\/Avisio",
+        "corpo": "torrente Duron",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32184&Sensore2=50686&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.744598,
-          46.160804
+          11.741933,
+          46.476318
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11776,
+        "idsensore": 11777,
         "idstazione": 145100,
         "stazione": "Canezza",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 603,
         "gmt": 60,
         "bacino": "Adige\/Fersina",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11776&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Fersina",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11777&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.275535,
-          46.07626
+          11.2764,
+          46.076273
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30984,
+        "idsensore": 11770,
+        "idstazione": 144900,
+        "stazione": "Caoria Ponte Belfe",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 846,
+        "gmt": 60,
+        "bacino": "Brenta\/Cismon",
+        "corpo": "torrente Vanoi",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11770&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.670335,
+          46.197498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30987,
         "idstazione": 399400,
         "stazione": "Caoria Valsorda",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 832,
         "gmt": 60,
         "bacino": "Brenta\/Cismon",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30984&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "rio Valsorda",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30987&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.678814,
-          46.196892
+          11.679062,
+          46.196851
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 32201,
-        "idstazione": 397300,
-        "stazione": "Capriana",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 930,
+        "idsensore": 11581,
+        "idstazione": 143800,
+        "stazione": "Carmignano",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 12,
         "gmt": 60,
-        "bacino": "Adige\/Avisio",
+        "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32201&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11581&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.338789,
-          46.260248
+          11.64388889,
+          45.13694444
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11461,
+        "idsensore": 11546,
+        "idstazione": 44400,
+        "stazione": "Casier",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 10,
+        "gmt": 60,
+        "bacino": "Scolante Laguna",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11546&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.30277778,
+          45.6325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11462,
         "idstazione": 191000,
         "stazione": "Castelfranco Veneto",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 47,
         "gmt": 60,
         "bacino": "Scolante Laguna",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11461&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11462&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -323,90 +1043,162 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11737,
+        "idsensore": 11736,
         "idstazione": 33100,
         "stazione": "Cavalese Masi",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 840,
         "gmt": 60,
         "bacino": "Adige\/Avisio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11737&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11736&Sensore2=18713&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.48023,
-          46.284377
+          11.479977,
+          46.284856
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30590,
-        "idstazione": 396500,
-        "stazione": "Cermis",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 2224,
+        "idsensore": 11544,
+        "idstazione": 234800,
+        "stazione": "Cavallino",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 1,
         "gmt": 60,
-        "bacino": "Adige\/Avisio",
+        "bacino": "Scolante Laguna",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30590&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11544&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.503022,
-          46.241935
+          12.545,
+          45.47083333
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11800,
+        "idsensore": 11487,
+        "idstazione": 234900,
+        "stazione": "Cavarzere",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 12,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11487&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.08222222,
+          45.13361111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32116,
+        "idstazione": 395900,
+        "stazione": "Cavizzana",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 623,
+        "gmt": 60,
+        "bacino": "Adige\/Noce",
+        "corpo": "fiume Noce",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32116&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.955603,
+          46.369675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11439,
+        "idstazione": 107400,
+        "stazione": "Cessalto",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 12,
+        "gmt": 60,
+        "bacino": "Livenza",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11439&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.675,
+          45.73333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11801,
         "idstazione": 146300,
         "stazione": "Cimego",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 477,
         "gmt": 60,
         "bacino": "Po\/Chiese",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11800&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Chiese",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11801&Sensore2=18729&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.621715,
-          45.915173
+          10.621964,
+          45.915279
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 20387,
+        "idsensore": 20388,
         "idstazione": 286600,
         "stazione": "Cologna Veneta",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 27,
         "gmt": 60,
         "bacino": "Gu",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=20387&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=20388&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -419,138 +1211,234 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11548,
-        "idstazione": 235100,
-        "stazione": "Conegliano",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 42,
+        "idsensore": 31945,
+        "idstazione": 396700,
+        "stazione": "Condino Chiese",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 415,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11548&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "bacino": "Po\/Chiese",
+        "corpo": "fiume Chiese",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31945&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.32416667,
-          45.88166667
+          10.594722,
+          45.877044
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11536,
-        "idstazione": 235200,
-        "stazione": "Contarina",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11513,
+        "idstazione": 41600,
+        "stazione": "Cordignano",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 0,
+        "quota": 59,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
+        "bacino": "Monticano",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11536&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11513&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.24861111,
-          44.99722222
+          12.42083333,
+          45.93638889
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11451,
-        "idstazione": 235400,
-        "stazione": "Cornuda",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 173,
+        "idsensore": 30872,
+        "idstazione": 398400,
+        "stazione": "Dimaro",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 750,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11451&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "bacino": "Adige\/Noce",
+        "corpo": "torrente Meledrio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30872&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.99222222,
-          45.82277778000001
+          10.881021,
+          46.327813
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11458,
-        "idstazione": 187100,
-        "stazione": "Fagare'd.Battaglia",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 1016114,
+        "idstazione": 50036700,
+        "stazione": "Dimaro Rotian",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 788,
+        "gmt": 60,
+        "bacino": "Adige\/Noce",
+        "corpo": "rio Rotian",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=1016114&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.861618,
+          46.325751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 31942,
+        "idstazione": 400400,
+        "stazione": "Dro",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 120,
+        "gmt": 60,
+        "bacino": "Po\/Sarca",
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31942&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.907966,
+          45.963707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11376,
+        "idstazione": 235700,
+        "stazione": "Enego",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 210,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11376&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.72194444,
+          45.93972222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11426,
+        "idstazione": 40300,
+        "stazione": "Eraclea",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 11,
         "gmt": 60,
         "bacino": "Piave",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11458&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11426&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.41861111,
-          45.68361111
+          12.675,
+          45.55916667000001
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 32119,
+        "idsensore": 33711,
+        "idstazione": 460800,
+        "stazione": "Ficarolo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 21,
+        "gmt": 60,
+        "bacino": "Po",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=33711&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.42555556,
+          44.94527778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11768,
         "idstazione": 144800,
         "stazione": "Fiera di Primiero",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 713,
         "gmt": 60,
         "bacino": "Brenta\/Cismon",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32119&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Cismon",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11768&Sensore2=18706&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.830168,
-          46.174095
+          11.829937,
+          46.174083
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11552,
+        "idsensore": 11551,
         "idstazione": 41300,
         "stazione": "Fontanelle",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 23,
         "gmt": 60,
         "bacino": "Monticano",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11552&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11551&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -563,66 +1451,18 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11369,
-        "idstazione": 235900,
-        "stazione": "Fonzaso",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 321,
-        "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11369&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.80527778,
-          46.0025
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 16292,
-        "idstazione": 240200,
-        "stazione": "Gallio",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1175,
-        "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16292&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.56333333,
-          45.86805556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 12405,
+        "idsensore": 11554,
         "idstazione": 41500,
         "stazione": "Gorgo Monticano",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 11,
         "gmt": 60,
         "bacino": "Monticano",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12405&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11554&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -635,114 +1475,234 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 28248,
+        "idsensore": 30423,
+        "idstazione": 397700,
+        "stazione": "Grigno Paese",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 252,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "torrente Grigno",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30423&Sensore2=38566&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.636856,
+          46.015194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11766,
         "idstazione": 144700,
         "stazione": "Grigno Ponte Filippini",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 246,
         "gmt": 60,
         "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28248&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Brenta",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11766&Sensore2=18705&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.644646,
-          46.004309
+          11.644513,
+          46.004275
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11924,
-        "idstazione": 123100,
-        "stazione": "La Secca",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11517,
+        "idstazione": 41000,
+        "stazione": "La Salute di Livenza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 375,
+        "quota": 6,
         "gmt": 60,
-        "bacino": "Lago di S. Croce",
+        "bacino": "Livenza",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11924&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11517&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.32638889,
-          46.12166667
+          12.79972222,
+          45.65611111
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30878,
+        "idsensore": 11694,
         "idstazione": 402300,
         "stazione": "Lavis",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 240,
         "gmt": 60,
         "bacino": "Adige\/Avisio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30878&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11694&Sensore2=18714&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.1185,
-          46.137837
+          11.118599,
+          46.13811
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11763,
+        "idsensore": 11481,
+        "idstazione": 236200,
+        "stazione": "Legnago",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 21,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11481&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.31416667,
+          45.18805556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11762,
         "idstazione": 144500,
         "stazione": "Levico Ponte Cervia",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 436,
         "gmt": 60,
         "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11763&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Brenta",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11762&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.31808,
-          46.003139
+          11.317894,
+          46.003337
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11603,
+        "idsensore": 11590,
+        "idstazione": 147100,
+        "stazione": "Limena",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 26,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11590&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.82694444,
+          45.50916667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11592,
+        "idstazione": 147200,
+        "stazione": "Longare",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 27,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11592&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.60305556,
+          45.48361111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11398,
+        "idstazione": 236400,
+        "stazione": "Lonigo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 31,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11398&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3875,
+          45.388888889999983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11602,
         "idstazione": 147600,
         "stazione": "Lugo di Vicenza",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 148,
         "gmt": 60,
         "bacino": "Brenta",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11603&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11602&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -755,282 +1715,642 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11733,
+        "idsensore": 11732,
         "idstazione": 33300,
         "stazione": "Malé",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 684,
         "gmt": 60,
         "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11733&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Noce",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11732&Sensore2=18711&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.913579,
-          46.347259
+          10.913822,
+          46.347113
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30715,
+        "idsensore": 12323,
+        "idstazione": 371200,
+        "stazione": "Marco",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 160,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12323&Sensore2=18721&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.000874,
+          45.83906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30718,
         "idstazione": 399200,
         "stazione": "Maso Milano",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 263,
         "gmt": 60,
         "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30715&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Sporeggio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30718&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.054696,
-          46.237674
+          11.054908,
+          46.237725
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11530,
-        "idstazione": 236600,
-        "stazione": "Massanzago",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 16,
+        "idsensore": 49050,
+        "idstazione": 655600,
+        "stazione": "Mattarello",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 190,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11530&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "bacino": "Adige",
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=49050&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.00444444,
-          45.54638889000001
+          11.122894,
+          46.009636
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11527,
-        "idstazione": 236700,
-        "stazione": "Mestre",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11445,
+        "idstazione": 42200,
+        "stazione": "Meduna di Livenza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 18,
+        "quota": 12,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
+        "bacino": "Monticano",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11527&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11445&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.24638889,
-          45.4925
+          12.61138889,
+          45.79055556
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11690,
+        "idsensore": 11691,
         "idstazione": 32700,
         "stazione": "Mezzolombardo Ponte Rupe",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 189,
         "gmt": 60,
         "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11690&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Noce",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11691&Sensore2=18712&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.103186,
-          46.194092
+          11.103355,
+          46.193669
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30710,
-        "idstazione": 399600,
-        "stazione": "Monte Finonchio",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 28938,
+        "idstazione": 396000,
+        "stazione": "Moena",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 1588,
+        "quota": 1230,
+        "gmt": 60,
+        "bacino": "Adige\/Avisio",
+        "corpo": "rio San Pellegrino",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28938&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.668083,
+          46.374994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11435,
+        "idstazione": 75800,
+        "stazione": "Mogliano Veneto",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 16,
+        "gmt": 60,
+        "bacino": "Dese",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11435&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.23972222,
+          45.55555556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30420,
+        "idstazione": 396600,
+        "stazione": "Molina di Fiemme",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 797,
+        "gmt": 60,
+        "bacino": "Adige\/Avisio",
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30420&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.423149,
+          46.271105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11471,
+        "idstazione": 246300,
+        "stazione": "Monteforte I.",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 39,
         "gmt": 60,
         "bacino": "Adige",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30710&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11471&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.114541,
-          45.900216
+          11.28722222,
+          45.41388889000001
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 31065,
-        "idstazione": 398300,
-        "stazione": "Monte Vigo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 2177,
-        "gmt": 60,
-        "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31065&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.82655,
-          46.274879
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40866,
-        "idstazione": 516300,
-        "stazione": "Nogarolo di Tarzo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11944,
+        "idstazione": 111100,
+        "stazione": "Montegalda",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 332,
+        "quota": 25,
         "gmt": 60,
-        "bacino": "Livenza\/Meschio",
+        "bacino": "Brenta",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40866&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11944&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.24611111,
-          45.98666667
+          11.67027778,
+          45.43555556
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11422,
-        "idstazione": 40000,
-        "stazione": "Passo Falzarego",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 34960,
+        "idstazione": 465200,
+        "stazione": "Motta di Livenza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 1990,
+        "quota": 11,
+        "gmt": 60,
+        "bacino": "Livenza",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34960&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.61638889,
+          45.77416667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11403,
+        "idstazione": 39600,
+        "stazione": "Nervesa d.Battaglia",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 90,
         "gmt": 60,
         "bacino": "Piave",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11422&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11403&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.0225,
-          46.51555556
+          12.20777778,
+          45.83055556
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11772,
+        "idsensore": 11433,
+        "idstazione": 75700,
+        "stazione": "Oderzo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 13,
+        "gmt": 60,
+        "bacino": "Livenza",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11433&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49777778,
+          45.77138889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 31936,
+        "idstazione": 416400,
+        "stazione": "Ospedaletto",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 316,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "fiume Brenta",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31936&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.548281,
+          46.03973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 30752,
+        "idstazione": 416900,
+        "stazione": "Peio Cogolo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1160,
+        "gmt": 60,
+        "bacino": "Adige\/Noce",
+        "corpo": "fiume Noce",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30752&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.688718,
+          46.353486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11773,
         "idstazione": 145000,
         "stazione": "Pellizzano",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 926,
         "gmt": 60,
         "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11772&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Noce",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11773&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.761662,
-          46.311303
+          10.761779,
+          46.31113
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 32599,
+        "idsensore": 11409,
+        "idstazione": 39800,
+        "stazione": "Perarolo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 700,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11409&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.35944444,
+          46.38638889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11496,
+        "idstazione": 237000,
+        "stazione": "Peschiera Navigarda",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 63,
+        "gmt": 60,
+        "bacino": "Po\/Mincio",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11496&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.69694444,
+          45.44111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 35417,
+        "idstazione": 398200,
+        "stazione": "Piave a Ponte Lasta",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 839,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=35417&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.52138889,
+          46.5375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 31933,
+        "idstazione": 400800,
+        "stazione": "Pieve di Bono",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 548,
+        "gmt": 60,
+        "bacino": "Po\/Chiese",
+        "corpo": "torrente Adanà",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31933&Sensore2=42435&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.644892,
+          45.945457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32179,
+        "idstazione": 400600,
+        "stazione": "Pinzolo Sarca",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 760,
+        "gmt": 60,
+        "bacino": "Po\/Sarca",
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32179&Sensore2=42436&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.755904,
+          46.155403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 16806,
+        "idstazione": 211100,
+        "stazione": "Polesella",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 10,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16806&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.75638889,
+          44.95833333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32207,
         "idstazione": 400500,
         "stazione": "Ponte Arche",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 391,
         "gmt": 60,
         "bacino": "Po\/Sarca",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32599&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32207&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.869658,
-          46.037218
+          10.870286,
+          46.037393
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11389,
+        "idsensore": 11627,
+        "idstazione": 175600,
+        "stazione": "Ponte Arzignano",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 90,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11627&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.37611111,
+          45.505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11624,
+        "idstazione": 175500,
+        "stazione": "Ponte Asse",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 62,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11624&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39972222,
+          45.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11388,
         "idstazione": 237200,
         "stazione": "Ponte Brogliano",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 159,
         "gmt": 60,
         "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11389&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11388&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1043,42 +2363,90 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 31922,
+        "idsensore": 31924,
         "idstazione": 401100,
         "stazione": "Ponte dei Tedeschi",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 378,
         "gmt": 60,
         "bacino": "Po\/Chiese",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31922&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Chiese",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31924&Sensore2=38569&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.545348,
-          45.817228
+          10.544908,
+          45.8174
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11401,
+        "idsensore": 28205,
+        "idstazione": 397500,
+        "stazione": "Ponte delle Carrette",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 365,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "torrente Maso",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28205&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.50735,
+          46.052489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11437,
+        "idstazione": 76700,
+        "stazione": "Ponte di Piave",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 17,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11437&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45777778,
+          45.698333329999983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11400,
         "idstazione": 237300,
         "stazione": "Ponte Gua'",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 80,
         "gmt": 60,
         "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11401&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11400&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1091,18 +2459,114 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11465,
+        "idsensore": 11598,
+        "idstazione": 147400,
+        "stazione": "Ponte Marchese",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 46,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11598&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.53666667,
+          45.57472222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11945,
+        "idstazione": 177900,
+        "stazione": "Ponte Mas",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 377,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11945&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.12722222,
+          46.14555556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 31939,
+        "idstazione": 417300,
+        "stazione": "Ponte Zaccon",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 417,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "fiume Brenta",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31939&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.410579,
+          46.038979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11542,
+        "idstazione": 105700,
+        "stazione": "Portesine Laguna",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 6,
+        "gmt": 60,
+        "bacino": "Scolante Laguna",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11542&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.50583333,
+          45.554722220000016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11466,
         "idstazione": 237400,
         "stazione": "Portesine Sile",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 1,
         "gmt": 60,
         "bacino": "Scolante Laguna",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11465&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11466&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1115,66 +2579,282 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30974,
-        "idstazione": 417600,
-        "stazione": "Pradidali",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 1226,
+        "idsensore": 49036,
+        "idstazione": 649400,
+        "stazione": "Porto Barricata",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 2,
         "gmt": 60,
-        "bacino": "Brenta\/Cismon",
+        "bacino": "Po",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30974&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=49036&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.874358,
-          46.219602
+          12.465,
+          44.84861111
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11792,
+        "idsensore": 11441,
+        "idstazione": 237500,
+        "stazione": "Porto Levante",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 1,
+        "gmt": 60,
+        "bacino": "Fissero",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11441&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.365,
+          45.04305556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 16823,
+        "idstazione": 211800,
+        "stazione": "Porto Tolle",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 14,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16823&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.30333333,
+          44.94861111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 34963,
+        "idstazione": 465100,
+        "stazione": "Portobuffole'",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 15,
+        "gmt": 60,
+        "bacino": "Livenza",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=34963&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.53638889,
+          45.85055556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 12170,
+        "idstazione": 237600,
+        "stazione": "Portogruaro",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 8,
+        "gmt": 60,
+        "bacino": "Scolante Laguna",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12170&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8375,
+          45.78638889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 33582,
+        "idstazione": 402100,
+        "stazione": "Posina a Stancari",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 405,
+        "gmt": 60,
+        "bacino": "Astico",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=33582&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.33583333,
+          45.80583333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32527,
+        "idstazione": 396800,
+        "stazione": "Prà Ponte di Cantilaga",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 486,
+        "gmt": 60,
+        "bacino": "Adige\/Avisio",
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32527&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.250905,
+          46.189624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28244,
+        "idstazione": 396300,
+        "stazione": "Predazzo Avisio",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1021,
+        "gmt": 60,
+        "bacino": "Adige\/Avisio",
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28244&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.595946,
+          46.310131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28943,
+        "idstazione": 396400,
+        "stazione": "Predazzo Travignolo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1015,
+        "gmt": 60,
+        "bacino": "Adige\/Avisio",
+        "corpo": "torrente Travignolo",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28943&Sensore2=48500&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.60133,
+          46.308378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11793,
         "idstazione": 146100,
         "stazione": "Preore",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 505,
         "gmt": 60,
         "bacino": "Po\/Sarca",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11792&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11793&Sensore2=18725&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.750245,
-          46.04264
+          10.750111,
+          46.042482
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 12462,
+        "idsensore": 32113,
+        "idstazione": 400000,
+        "stazione": "Ragoli",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 485,
+        "gmt": 60,
+        "bacino": "Po\/Sarca",
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32113&Sensore2=42442&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.785689,
+          46.050153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11382,
         "idstazione": 237800,
         "stazione": "Recoaro Terme",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 500,
         "gmt": 60,
         "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12462&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11382&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1187,114 +2867,90 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11705,
-        "idstazione": 238000,
-        "stazione": "Riva del Garda",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 66,
-        "gmt": 60,
-        "bacino": "Po\/Mincio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11705&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.844142,
-          45.88336
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 11915,
-        "idstazione": 122900,
-        "stazione": "Roncadin",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1151,
-        "gmt": 60,
-        "bacino": "Piave",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11915&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.40388889,
-          46.17277778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 28233,
+        "idsensore": 28229,
         "idstazione": 397400,
         "stazione": "Roncegno",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 515,
         "gmt": 60,
         "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28233&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Larganza",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28229&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.405184,
-          46.048593
+          11.405009,
+          46.048426
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 12319,
+        "idsensore": 12320,
         "idstazione": 145500,
         "stazione": "Rovereto Ponte Zigherane",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 171,
         "gmt": 60,
         "bacino": "Adige\/Leno",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12319&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Leno",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12320&Sensore2=18720&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.022242,
-          45.881038
+          11.022282,
+          45.88093
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11595,
+        "idsensore": 11751,
+        "idstazione": 33900,
+        "stazione": "S. Michele all'Adige",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 192,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11751&Sensore2=18708&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.13234,
+          46.195162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11594,
         "idstazione": 147300,
         "stazione": "S.Agostino",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 30,
         "gmt": 60,
         "bacino": "Brenta",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11595&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11594&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1307,426 +2963,738 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 12315,
+        "idsensore": 12316,
         "idstazione": 145400,
         "stazione": "S.Anna",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 523,
         "gmt": 60,
         "bacino": "Adige\/Leno",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12315&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Leno di Vallarsa",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12316&Sensore2=18719&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.100759,
-          45.794833
+          11.100882,
+          45.794946
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11796,
+        "idsensore": 53118,
+        "idstazione": 238100,
+        "stazione": "S.Bonifacio",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 32,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=53118&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.15,
+          45.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11424,
+        "idstazione": 40200,
+        "stazione": "S.Dona'di Piave",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 12,
+        "gmt": 60,
+        "bacino": "Piave",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11424&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.56527778,
+          45.61138889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 18995,
+        "idstazione": 270700,
+        "stazione": "S.Salvaro",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 14,
+        "gmt": 60,
+        "bacino": "Fratta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=18995&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40833333,
+          45.19805556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11475,
+        "idstazione": 238500,
+        "stazione": "S.Vito Veronese",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 38,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11475&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.29194444,
+          45.402777779999987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28240,
+        "idstazione": 397900,
+        "stazione": "San Martino di Castrozza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 1485,
+        "gmt": 60,
+        "bacino": "Brenta\/Cismon",
+        "corpo": "torrente Cismon",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28240&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.800916,
+          46.264129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11797,
         "idstazione": 146200,
         "stazione": "Sarche Ponte del Gobbo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 255,
         "gmt": 60,
         "bacino": "Po\/Sarca",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11796&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11797&Sensore2=18726&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.946892,
-          46.033166
+          10.946496,
+          46.03301
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30586,
-        "idstazione": 395400,
-        "stazione": "Sass Pordoi",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 2967,
+        "idsensore": 11405,
+        "idstazione": 39700,
+        "stazione": "Segusino",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 190,
         "gmt": 60,
-        "bacino": "Adige\/Avisio",
+        "bacino": "Piave",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30586&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11405&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.808386,
-          46.500169
+          11.9525,
+          45.91805556
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11729,
+        "idsensore": 11728,
         "idstazione": 33200,
         "stazione": "Soraga",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 1206,
         "gmt": 60,
         "bacino": "Adige\/Avisio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11729&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Avisio",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11728&Sensore2=18702&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.66671,
-          46.393291
+          11.666753,
+          46.393701
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 31927,
-        "idstazione": 401000,
-        "stazione": "Sorini",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 406,
-        "gmt": 60,
-        "bacino": "Po\/Chiese",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=31927&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.572674,
-          45.861369
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 11788,
+        "idsensore": 11789,
         "idstazione": 146000,
         "stazione": "Spiazzo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 645,
         "gmt": 60,
         "bacino": "Po\/Sarca",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11788&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11789&Sensore2=18724&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.739211,
-          46.102197
+          10.738969,
+          46.102176
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 12311,
+        "idsensore": 53970,
+        "idstazione": 743700,
+        "stazione": "Squaranto a Pigozzo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 149,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=53970&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.06333333,
+          45.50638889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 37095,
+        "idstazione": 143900,
+        "stazione": "Stanghella",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 9,
+        "gmt": 60,
+        "bacino": "Agno",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=37095&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.75777778,
+          45.13722222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 53117,
+        "idstazione": 143900,
+        "stazione": "Stanghella",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 9,
+        "gmt": 60,
+        "bacino": "NULL",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=53117&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.75722222,
+          45.14527778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 12312,
         "idstazione": 145300,
         "stazione": "Stedileri",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 639,
         "gmt": 60,
         "bacino": "Adige\/Leno",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12311&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Leno di Terragnolo",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12312&Sensore2=18718&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.171838,
-          45.867538
+          11.171923,
+          45.867653
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11651,
-        "idstazione": 130900,
-        "stazione": "Telve di Sopra",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "PAT - Ufficio Dighe",
-        "quota": 669,
+        "idsensore": 11629,
+        "idstazione": 191500,
+        "stazione": "Stra",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 14,
         "gmt": 60,
         "bacino": "Brenta",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11651&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11629&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.47113,
-          46.073163
+          11.99777778,
+          45.4025
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 28338,
-        "idstazione": 398900,
-        "stazione": "Terres",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 30869,
+        "idstazione": 400200,
+        "stazione": "Tione",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 517,
+        "quota": 535,
+        "gmt": 60,
+        "bacino": "Po\/Sarca",
+        "corpo": "torrente Arnò",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30869&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.735048,
+          46.033747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 32110,
+        "idstazione": 416800,
+        "stazione": "Toflin",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 582,
         "gmt": 60,
         "bacino": "Adige\/Noce",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28338&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Barnes",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=32110&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.013831,
-          46.320467
+          11.009997,
+          46.399729
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 30980,
-        "idstazione": 398000,
-        "stazione": "Tognola",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 28236,
+        "idstazione": 398100,
+        "stazione": "Tonadico",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 2147,
+        "quota": 755,
         "gmt": 60,
         "bacino": "Brenta\/Cismon",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=30980&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Canali",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28236&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.778387,
-          46.241033
+          11.843546,
+          46.182614
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11696,
+        "idsensore": 11702,
+        "idstazione": 238700,
+        "stazione": "Torbole",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 66,
+        "gmt": 60,
+        "bacino": "Po\/Sarca",
+        "corpo": "fiume Sarca",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11702&Sensore2=18727&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.882831,
+          45.883986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11780,
+        "idstazione": 145200,
+        "stazione": "Trento Fersina",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 197,
+        "gmt": 60,
+        "bacino": "Adige\/Fersina",
+        "corpo": "torrente Fersina",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11780&Sensore2=18716&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117988,
+          46.043983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11697,
         "idstazione": 238800,
         "stazione": "Trento Ponte S Lorenzo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 193,
         "gmt": 60,
         "bacino": "Adige",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11696&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11697&Sensore2=18701&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.115775,
-          46.070251
+          11.11501,
+          46.070134
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11521,
-        "idstazione": 238900,
-        "stazione": "Treporti",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 6,
-        "gmt": 60,
-        "bacino": "Scolante Laguna",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11521&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.45916667,
-          45.45
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 18975,
-        "idstazione": 145900,
-        "stazione": "Val Genova O.P.Enel",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11784,
+        "idstazione": 145800,
+        "stazione": "Val Genova P. S. Maria",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 879,
+        "quota": 1119,
         "gmt": 60,
         "bacino": "Po\/Sarca",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=18975&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "torrente Sarca di Val Genova",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11784&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.726174,
-          46.17006
+          10.661162,
+          46.166699
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11374,
-        "idstazione": 239100,
-        "stazione": "Valstagna",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 12333,
+        "idstazione": 143700,
+        "stazione": "Valli Mocenighe",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 145,
+        "quota": 10,
         "gmt": 60,
-        "bacino": "Brenta",
+        "bacino": "Agno",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11374&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12333&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.65416667,
-          45.85083333
+          11.56472222,
+          45.14833333
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11559,
-        "idstazione": 131900,
-        "stazione": "Venezia Sede",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11515,
+        "idstazione": 41400,
+        "stazione": "Vazzola",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 1,
+        "quota": 28,
         "gmt": 60,
-        "bacino": "Scolante Laguna",
+        "bacino": "Monticano",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11559&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11515&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.33,
-          45.43111111
+          12.39861111,
+          45.838333330000012
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11648,
-        "idstazione": 105200,
-        "stazione": "Vetriolo",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 38588,
+        "idstazione": 515000,
+        "stazione": "Veggiano",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 21,
+        "gmt": 60,
+        "bacino": "Tesina",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=38588&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.72222222,
+          45.44527778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11808,
+        "idstazione": 153000,
+        "stazione": "Vermiglio",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
-        "quota": 1520,
+        "quota": 1165,
         "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11648&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "bacino": "Adige\/Noce",
+        "corpo": "torrente Vermigliana",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11808&Sensore2=18709&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.309005,
-          46.042094
+          10.684134,
+          46.290329
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 11378,
-        "idstazione": 175300,
-        "stazione": "Villaggio del Sole",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "idsensore": 11473,
+        "idstazione": 239200,
+        "stazione": "Verona",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 1154,
+        "quota": 57,
         "gmt": 60,
-        "bacino": "Brenta",
+        "bacino": "Adige",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11378&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11473&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.72777778,
-          45.83444444
+          11.00083333,
+          45.44222222
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 40862,
+        "idsensore": 11943,
+        "idstazione": 147800,
+        "stazione": "Vicenza",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "Regione del Veneto",
+        "quota": 33,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "NULL",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11943&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.54722222,
+          45.54111111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 28219,
+        "idstazione": 397600,
+        "stazione": "Villa Agnedo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 397,
+        "gmt": 60,
+        "bacino": "Brenta",
+        "corpo": "torrente Chieppena",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=28219&Sensore2=NULL&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.523951,
+          46.056718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 11700,
+        "idstazione": 416600,
+        "stazione": "Villa Lagarina",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
+        "quota": 149,
+        "gmt": 60,
+        "bacino": "Adige",
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=11700&Sensore2=18717&TipologiaGrafico=idrometro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038306,
+          45.912623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "idsensore": 40863,
         "idstazione": 516400,
         "stazione": "Vittorio Veneto",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
         "quota": 132,
         "gmt": 60,
         "bacino": "Livenza\/Meschio",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40862&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40863&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
@@ -1739,1608 +3707,96 @@
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 12325,
+        "idsensore": 12326,
         "idstazione": 145700,
         "stazione": "Vò Destro",
-        "strumento": "Pluviometro",
-        "grandezza": "Pioggia Cumulata",
-        "um": "mm",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "PAT - Ufficio Dighe",
         "quota": 130,
         "gmt": 60,
         "bacino": "Adige",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12325&Sensore2=NULL&TipologiaGrafico=pluviometro0hcumulata"
+        "corpo": "fiume Adige",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=12326&Sensore2=18722&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.957084,
-          45.735371
+          10.957414,
+          45.735043
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 36601,
-        "idstazione": 490700,
-        "stazione": "Agordo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
+        "idsensore": 35409,
+        "idstazione": 471200,
+        "stazione": "Vo' Vecchio",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 578,
-        "gmt": 60,
-        "bacino": "Piave\/Cordevole",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36601&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.03305556,
-          46.2775
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36605,
-        "idstazione": 490800,
-        "stazione": "Arabba CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1645,
-        "gmt": 60,
-        "bacino": "Piave\/Cordevole",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36605&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.87833333,
-          46.50055556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36609,
-        "idstazione": 490900,
-        "stazione": "Asiago CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1010,
-        "gmt": 60,
-        "bacino": "Brenta\/Val D Assa",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36609&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.51555556,
-          45.883333330000013
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54358,
-        "idstazione": 739300,
-        "stazione": "Auronzo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 849,
-        "gmt": 60,
-        "bacino": "NULL",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54358&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.25,
-          46.33
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36613,
-        "idstazione": 491000,
-        "stazione": "Bardolino CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 165,
-        "gmt": 60,
-        "bacino": "Po\/Garda Meridionale",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36613&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.76638889,
-          45.51944444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36617,
-        "idstazione": 491100,
-        "stazione": "Belluno Aerop. CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 376,
-        "gmt": 60,
-        "bacino": "Piave",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36617&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.24583333,
-          46.165
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40229,
-        "idstazione": 560300,
-        "stazione": "Bibione CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1,
-        "gmt": 60,
-        "bacino": "Tagliamento",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40229&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.07722222,
-          45.64055556000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36621,
-        "idstazione": 491200,
-        "stazione": "Boscochiesanuova CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1050,
-        "gmt": 60,
-        "bacino": "Adige\/Alto Squaranto",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36621&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.03972222,
-          45.62027778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 56612,
-        "idstazione": 747400,
-        "stazione": "Brendola CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 0,
-        "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=56612&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.47,
-          45.47
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 45596,
-        "idstazione": 641300,
-        "stazione": "Brustole' CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 328,
-        "gmt": 60,
-        "bacino": "Brenta - Posina",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=45596&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.34361111,
-          45.80055556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36625,
-        "idstazione": 491300,
-        "stazione": "Campo di Zoldo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 884,
-        "gmt": 60,
-        "bacino": "Piave\/Ma",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36625&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.18472222,
-          46.34722222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40206,
-        "idstazione": 559700,
-        "stazione": "Campodarsego CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 15,
-        "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40206&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.91361111,
-          45.49472222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36753,
-        "idstazione": 494600,
-        "stazione": "Caprile CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1008,
-        "gmt": 60,
-        "bacino": "Piave\/Cordevole",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36753&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.99083333,
-          46.44138889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36629,
-        "idstazione": 491400,
-        "stazione": "Castana CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 430,
-        "gmt": 60,
-        "bacino": "Brenta\/Posina",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36629&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.30166667,
-          45.82055556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36633,
-        "idstazione": 491500,
-        "stazione": "Castelfranco Veneto CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 50,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36633&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.94888889,
-          45.69583333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36637,
-        "idstazione": 491600,
-        "stazione": "Castelnovo Bariano CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 9,
-        "gmt": 60,
-        "bacino": "FTC\/Polesine",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36637&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.32694444,
-          45.03194444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40189,
-        "idstazione": 559300,
-        "stazione": "Chioggia S.Anna CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": -1,
+        "quota": 17,
         "gmt": 60,
         "bacino": "Adige",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40189&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=35409&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.27611111,
-          45.14388889
+          11.61694444,
+          45.32527778
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 36641,
-        "idstazione": 491700,
-        "stazione": "Conegliano Veneto CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
+        "idsensore": 16287,
+        "idstazione": 224100,
+        "stazione": "Voltabarozzo Valle",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
         "entepropr": "Regione del Veneto",
-        "quota": 83,
-        "gmt": 60,
-        "bacino": "Livenza\/Medio Corso",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36641&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.28361111,
-          45.88194444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36645,
-        "idstazione": 491800,
-        "stazione": "Cortina CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1200,
-        "gmt": 60,
-        "bacino": "Piave\/Boite",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36645&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.14666667,
-          46.51888889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40197,
-        "idstazione": 559500,
-        "stazione": "Crespano del Grappa CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 401,
+        "quota": 12,
         "gmt": 60,
         "bacino": "Brenta",
         "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40197&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=16287&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.84083333,
-          45.841111109999979
+          11.91388889,
+          45.37777778
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "idsensore": 36649,
-        "idstazione": 491900,
-        "stazione": "Domegge CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 841,
-        "gmt": 60,
-        "bacino": "Piave\/Cadore",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36649&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.41166667,
-          46.4625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40214,
-        "idstazione": 559900,
-        "stazione": "Eraclea CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": -1,
-        "gmt": 60,
-        "bacino": "Piave\/VALBEL.PIANURA",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40214&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.70722222,
-          45.6025
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36593,
-        "idstazione": 494800,
-        "stazione": "Falcade CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1145,
-        "gmt": 60,
-        "bacino": "Piave\/Cordevole",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36593&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.87111111,
-          46.35638889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36653,
-        "idstazione": 492000,
-        "stazione": "Feltre CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 267,
-        "gmt": 60,
-        "bacino": "Piave\/Sonna e Stizz",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36653&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.90472222,
-          46.02138889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40221,
-        "idstazione": 560100,
-        "stazione": "Follina CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 286,
-        "gmt": 60,
-        "bacino": "Piave\/VALBEL.PIANURA",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40221&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.11722222,
-          45.95638889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40201,
-        "idstazione": 559600,
-        "stazione": "Gaiarine CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 18,
-        "gmt": 60,
-        "bacino": "Livenza\/Monticano",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40201&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.49361111,
-          45.89138889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36657,
-        "idstazione": 492100,
-        "stazione": "Gesia-Cavarzere CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36657&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.08805556,
-          45.1625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36661,
-        "idstazione": 492200,
-        "stazione": "Illasi CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 146,
-        "gmt": 60,
-        "bacino": "Adige\/Parte bassa VR",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36661&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1725,
-          45.46111111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36665,
-        "idstazione": 492300,
-        "stazione": "Legnaro CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 8,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36665&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.95333333,
-          45.34777778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36669,
-        "idstazione": 492400,
-        "stazione": "Lonigo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 28,
-        "gmt": 60,
-        "bacino": "Brenta\/Fratta-GU",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36669&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.37916667,
-          45.39111111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36597,
-        "idstazione": 494700,
-        "stazione": "Malga Ciapela CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1465,
-        "gmt": 60,
-        "bacino": "Piave\/Cordevole",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36597&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.90527778,
-          46.43
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36677,
-        "idstazione": 492600,
-        "stazione": "Malga Col Indes CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1183,
-        "gmt": 60,
-        "bacino": "Piave\/Alpago",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36677&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.44083333,
-          46.12
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36681,
-        "idstazione": 492700,
-        "stazione": "Malo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 99,
-        "gmt": 60,
-        "bacino": "Brenta\/Medio Astico",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36681&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.46555556,
-          45.67027778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40218,
-        "idstazione": 560000,
-        "stazione": "Marano di Valpolicella CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 296,
-        "gmt": 60,
-        "bacino": "Adige",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40218&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.92361111,
-          45.54722222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36755,
-        "idstazione": 492900,
-        "stazione": "Mira CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 5,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36755&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.11805556,
-          45.43694444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54363,
-        "idstazione": 739400,
-        "stazione": "Misurina CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1743,
-        "gmt": 60,
-        "bacino": "NULL",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54363&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.15,
-          46.34
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36689,
-        "idstazione": 493000,
-        "stazione": "Mogliano Veneto CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 5,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36689&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.30638889,
-          45.5825
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36673,
-        "idstazione": 492500,
-        "stazione": "Monte Faloria CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 2240,
-        "gmt": 60,
-        "bacino": "Piave\/Boite",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36673&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.17555556,
-          46.52833333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 45601,
-        "idstazione": 641400,
-        "stazione": "Montecchio Precalcino CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 74,
-        "gmt": 60,
-        "bacino": "Brenta-BACCHIG-TIMON",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=45601&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.54805556,
-          45.65777778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40193,
-        "idstazione": 559400,
-        "stazione": "Montegalda CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 23,
-        "gmt": 60,
-        "bacino": "Brenta\/Bacchiglione",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40193&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.66194444,
-          45.44888889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54368,
-        "idstazione": 739500,
-        "stazione": "Passo Monte Croce CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1620,
-        "gmt": 60,
-        "bacino": "Piave",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54368&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.25,
-          46.39
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54373,
-        "idstazione": 739600,
-        "stazione": "Perarolo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 527,
-        "gmt": 60,
-        "bacino": "Piave",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54373&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.21,
-          46.23
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36693,
-        "idstazione": 493100,
-        "stazione": "Ponte di Piave CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 6,
-        "gmt": 60,
-        "bacino": "Livenza\/Piave\/Opiter",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36693&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.52527778,
-          45.71805556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36697,
-        "idstazione": 493200,
-        "stazione": "Portogruaro CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 2,
-        "gmt": 60,
-        "bacino": "Lemene",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36697&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.7625,
-          45.74611111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36701,
-        "idstazione": 493300,
-        "stazione": "Pradon CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
+        "idsensore": 49613,
+        "idstazione": 687800,
+        "stazione": "Zento Novo",
+        "strumento": "Idrometro",
+        "grandezza": "Livello Idrometrico",
+        "um": "m",
+        "entepropr": "PAT - Ufficio Dighe",
         "quota": 0,
         "gmt": 60,
-        "bacino": "Po\/Delta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36701&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.36972222,
-          44.91833333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36705,
-        "idstazione": 493400,
-        "stazione": "Quinto Vicentino CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 33,
-        "gmt": 60,
-        "bacino": "Brenta\/SX Tesina",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36705&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.63138889,
-          45.57
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36709,
-        "idstazione": 493500,
-        "stazione": "Rifugio La Guardia CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1131,
-        "gmt": 60,
-        "bacino": "Brenta\/Alta V. Agno",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36709&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.17916667,
-          45.71833333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40225,
-        "idstazione": 560200,
-        "stazione": "Rosa' CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 85,
-        "gmt": 60,
-        "bacino": "Brenta",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40225&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.77638889,
-          45.71583333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36713,
-        "idstazione": 493600,
-        "stazione": "Roverchiara CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 20,
-        "gmt": 60,
-        "bacino": "FTC\/Valli Grandi",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36713&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.255,
-          45.26694444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40627,
-        "idstazione": 562600,
-        "stazione": "Rovina Bassa di Cancia CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1335,
-        "gmt": 60,
-        "bacino": "Piave\/BOITE",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40627&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.24277778,
-          46.43638889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36717,
-        "idstazione": 493700,
-        "stazione": "S.Stefano di Cadore CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 895,
-        "gmt": 60,
-        "bacino": "Piave\/Sorgenti",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36717&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.55555556,
-          46.55972222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36721,
-        "idstazione": 493800,
-        "stazione": "San Bortolo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 936,
-        "gmt": 60,
-        "bacino": "Adige\/Alto Illasi",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36721&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1825,
-          45.60972222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36725,
-        "idstazione": 493900,
-        "stazione": "Sant'Apollinare CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 2,
-        "gmt": 60,
-        "bacino": "FTC\/Polesine",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36725&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.82694444,
-          45.035
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36729,
-        "idstazione": 494000,
-        "stazione": "Sappada CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1265,
-        "gmt": 60,
-        "bacino": "Piave\/Sorgenti",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36729&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.70916667,
-          46.55472222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36733,
-        "idstazione": 494100,
-        "stazione": "Sorga' CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 24,
-        "gmt": 60,
-        "bacino": "FTC\/Agro Veronese",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36733&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.00972222,
-          45.21888889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36737,
-        "idstazione": 494200,
-        "stazione": "Teolo CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 158,
-        "gmt": 60,
-        "bacino": "Brenta\/Bacchiglione",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36737&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.67805556,
-          45.34333333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36741,
-        "idstazione": 494300,
-        "stazione": "Treviso Citta' CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 20,
-        "gmt": 60,
-        "bacino": "Sile\/Alto e Medio",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36741&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.22222222,
-          45.68194444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 43752,
-        "idstazione": 631300,
-        "stazione": "Tribano Ponte Zata CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 0,
-        "gmt": 60,
-        "bacino": "BACINO SCOLANTE",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=43752&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.84916667,
-          45.18611111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40625,
-        "idstazione": 562500,
-        "stazione": "Turcati Recoaro CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 705,
-        "gmt": 60,
-        "bacino": "Brenta\/AGNO",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40625&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.185,
-          45.71166667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 45605,
-        "idstazione": 641500,
-        "stazione": "Valli del Pasubio CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 600,
-        "gmt": 60,
-        "bacino": "Brenta - LEOGRA",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=45605&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.215,
-          45.75722222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36745,
-        "idstazione": 494400,
-        "stazione": "Venezia-Treporti CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 1,
-        "gmt": 60,
-        "bacino": "Scolante\/Laguna Ven",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36745&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.48444444,
-          45.45861111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 36749,
-        "idstazione": 494500,
-        "stazione": "Villafranca Veronese CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 66,
-        "gmt": 60,
-        "bacino": "FTC\/Agro Veronese",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=36749&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.83361111,
-          45.37333333
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40621,
-        "idstazione": 562400,
-        "stazione": "Villanova CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 968,
-        "gmt": 60,
-        "bacino": "Piave\/BOITE",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40621&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.20638889,
-          46.4425
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54382,
-        "idstazione": 739800,
-        "stazione": "Vittorio Veneto CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 122,
-        "gmt": 60,
         "bacino": "NULL",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54382&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
+        "corpo": "fossa di Caldaro",
+        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=49613&Sensore2=NULL&TipologiaGrafico=idrometro"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.18,
-          45.59
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 40233,
-        "idstazione": 560400,
-        "stazione": "Volpago CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 125,
-        "gmt": 60,
-        "bacino": "Piave\/VALBEL.PIANURA",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=40233&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.11305556,
-          45.78444444
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "idsensore": 54378,
-        "idstazione": 739700,
-        "stazione": "Valle di Cadore CMT",
-        "strumento": "Pluviometro",
-        "grandezza": "Precipitazione",
-        "um": "mm",
-        "entepropr": "Regione del Veneto",
-        "quota": 793,
-        "gmt": 60,
-        "bacino": "NULL",
-        "corpo": "NULL",
-        "linkdati": "https:\/\/www.floods.it\/public\/Charts.php?Argomento=0&Sensore1=54378&Sensore2=NULL&TipologiaGrafico=pluviometro0hincrementi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.2,
-          46.25
+          11.15666667,
+          46.2325
         ]
       }
     }

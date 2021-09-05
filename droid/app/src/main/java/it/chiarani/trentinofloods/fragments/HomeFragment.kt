@@ -5,13 +5,16 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.FragmentNavigator
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.google.gson.Gson
 import dagger.hilt.android.AndroidEntryPoint
 import it.chiarani.trentinofloods.R
-import it.chiarani.trentinofloods.data.Idrometer
 import it.chiarani.trentinofloods.databinding.FragmentHomeBinding
 import it.chiarani.trentinofloods.viewModels.FloodsViewModel
+import okhttp3.ResponseBody
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.*
 
 @AndroidEntryPoint
 class HomeFragment : Fragment(R.layout.fragment_home) {
@@ -24,20 +27,50 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         super.onViewCreated(view, savedInstanceState)
 
         binding = FragmentHomeBinding.bind(view)
+        val extra = FragmentNavigator.Extras.Builder()
+            .addSharedElement(binding.clCardSearch, "cl_card_search_transition")
+            .build()
 
         binding.clCardSearch.setOnClickListener { view ->
-            view.findNavController().navigate(R.id.action_homefragment_to_searchfragment)
             hideBottomSheet()
+            view.findNavController().navigate(
+                R.id.action_homefragment_to_searchfragment,
+                null,
+                null,
+                extra
+            )
          }
 
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
+
+        viewModel.getRiverSensorData("31942", "0").observe(viewLifecycleOwner) {
+//            val a = it
+//            val b = a.body()
+//            val data = extractAPIData(it.body()!!)
+//            val x = data!![0]
+        }
     }
 
-
-
+    private fun extractAPIData(model: ResponseBody): List<String>? {
+        val inputStream = model.byteStream()
+        val reader = BufferedReader(InputStreamReader(inputStream))
+        var line = ""
+        val data: MutableList<String> = ArrayList()
+        return try {
+            reader.readLine()
+            reader.readLine()
+            reader.readLine()
+            reader.readLine()
+            while (reader.readLine().also { line = it } != null) {
+                data.add(line)
+            }
+            data
+        } catch (ex: Exception) {
+            null
+        }
+    }
     override fun onResume() {
         super.onResume()
-        showBottomSheet()
     }
 
     private fun hideBottomSheet() {
