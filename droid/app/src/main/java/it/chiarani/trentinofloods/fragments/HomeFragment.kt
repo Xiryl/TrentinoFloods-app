@@ -43,32 +43,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
 
-        viewModel.getRiverSensorData("31942", "0").observe(viewLifecycleOwner) {
-//            val a = it
-//            val b = a.body()
-//            val data = extractAPIData(it.body()!!)
-//            val x = data!![0]
-        }
+
     }
 
-    private fun extractAPIData(model: ResponseBody): List<String>? {
-        val inputStream = model.byteStream()
-        val reader = BufferedReader(InputStreamReader(inputStream))
-        var line = ""
-        val data: MutableList<String> = ArrayList()
-        return try {
-            reader.readLine()
-            reader.readLine()
-            reader.readLine()
-            reader.readLine()
-            while (reader.readLine().also { line = it } != null) {
-                data.add(line)
-            }
-            data
-        } catch (ex: Exception) {
-            null
-        }
-    }
+
     override fun onResume() {
         super.onResume()
     }

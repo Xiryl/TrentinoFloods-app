@@ -46,35 +46,6 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <!-- END TopBar -->
-
-    <!-- Search View-->
-    <!--    <androidx.appcompat.widget.SearchView-->
-    <!--        android:id="@+id/search_view"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginStart="16dp"-->
-    <!--        android:layout_marginTop="32dp"-->
-    <!--        android:layout_marginEnd="16dp"-->
-    <!--        android:animateLayoutChanges="true"-->
-    <!--        android:background="@drawable/bg_searchview"-->
-    <!--        app:iconifiedByDefault="false"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/cl_card_search"-->
-    <!--        app:queryHint="Ricerca per bacino idrico" />-->
-
-    <!--    <ListView-->
-    <!--        android:visibility="gone"-->
-    <!--        android:id="@+id/search_list_view"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginStart="16dp"-->
-    <!--        android:layout_marginTop="4dp"-->
-    <!--        android:layout_marginEnd="16dp"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/search_view" />-->
-
     <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
         android:id="@+id/spinner_bacini"
         android:layout_width="match_parent"
@@ -123,5 +94,14 @@
         app:smsp_searchHeaderText="Cerca / Seleziona una Stazione"
         app:smsp_selectedItemListColor="@color/violetblue" />
 
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_stazione" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
