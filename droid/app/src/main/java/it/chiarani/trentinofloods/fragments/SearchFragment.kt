@@ -1,26 +1,30 @@
 package it.chiarani.trentinofloods.fragments
 
+import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.transition.ChangeBounds
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
-import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.content.ContextCompat
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.github.mikephil.charting.charts.LineChart
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.mikephil.charting.components.YAxis
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.google.gson.Gson
 import it.chiarani.trentinofloods.R
+import it.chiarani.trentinofloods.adapters.FloodsDataAdapter
 import it.chiarani.trentinofloods.data.SensorData
 import it.chiarani.trentinofloods.databinding.FragmentSearchBinding
+import it.chiarani.trentinofloods.utils.Constants
 import it.chiarani.trentinofloods.utils.CustomDateFormatter
 import it.chiarani.trentinofloods.viewModels.FloodsViewModel
 import okhttp3.ResponseBody
@@ -32,14 +36,18 @@ import java.util.*
 
 class SearchFragment : Fragment(R.layout.fragment_search) {
 
+    private lateinit var sp: SharedPreferences
     private lateinit var binding: FragmentSearchBinding
     private val viewModel: FloodsViewModel by activityViewModels()
 
     private val baciniList = mutableListOf<String>()
     private val stazioniList = mutableListOf<String>()
     private lateinit var floodList : SensorData
-
-    private lateinit var lineChart: LineChart
+    private var isCharView = false
+    private lateinit var floodsDataAdapter: FloodsDataAdapter
+    private var dataRecyclerView = mutableListOf<String>()
+    private var currentStation = ""
+    private var oldPrefStation = ""
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -47,18 +55,52 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         floodList = getJsonFloods()
 
         initBaciniSpinner()
-//
-//        lineChart = binding.chart1
-//
-//        // style and settings
 
-//
-//        val lineData: LineData = LineData()
-//        lineData.apply {
-//            setValueTextColor(Color.WHITE)
-//        }
-//
-//        lineChart.data = lineData
+        binding.cardSearchIcon.setOnClickListener {
+            findNavController().popBackStack()
+        }
+
+        sp = PreferenceManager.getDefaultSharedPreferences(context)
+        oldPrefStation = sp.getString(Constants.PREF_KEY_PREF_STATION.toString(), "")!!
+
+        binding.btnSwitchView.setOnClickListener {
+            if(isCharView) {
+                binding.chart1.visibility = View.VISIBLE
+                binding.recyclerViewFloodData.visibility = View.GONE
+                binding.btnSwitchView.text = "Vista Tabella"
+            } else {
+                binding.chart1.visibility = View.GONE
+                binding.recyclerViewFloodData.visibility = View.VISIBLE
+                binding.btnSwitchView.text = "Vista Grafico"
+            }
+
+            isCharView = !isCharView
+        }
+
+        floodsDataAdapter = FloodsDataAdapter(dataRecyclerView)
+
+        binding.recyclerViewFloodData.apply {
+            adapter = floodsDataAdapter
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+            addItemDecoration(
+                DividerItemDecoration(
+                    context,
+                    DividerItemDecoration.VERTICAL
+                )
+            )
+        }
+
+        binding.pref.setOnClickListener {
+            if(currentStation.isNullOrEmpty()) {
+                Toast.makeText(requireContext(), "Seleziona prima una stazione!", Toast.LENGTH_LONG)
+                    .show()
+            } else {
+                binding.pref.setImageResource(R.drawable.ic_star_full)
+                sp.edit().putString(Constants.PREF_KEY_PREF_STATION.toString(), currentStation).apply()
+                Toast.makeText(requireContext(), "Salvato come preferito!", Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
 
@@ -99,6 +141,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         binding.chart1.setData(lineData)
         binding.chart1.invalidate() // refresh
         binding.chart1.refreshDrawableState()
+
         binding.chart1.apply {
             description.isEnabled = false
             isAutoScaleMinMaxEnabled = true
@@ -121,19 +164,6 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
             xAxis.setDrawAxisLine(false)
             setDrawBorders(false)
         }
-    }
-
-    private fun createSet(color: Int, legend: String) : ILineDataSet {
-        val set: LineDataSet = LineDataSet(null, legend)
-        set.setAxisDependency(YAxis.AxisDependency.LEFT);
-        set.setLineWidth(3f);
-        set.setColor(color);
-        set.setHighlightEnabled(false);
-        set.setDrawValues(false);
-        set.setDrawCircles(false);
-        set.setMode(LineDataSet.Mode.CUBIC_BEZIER);
-        set.setCubicIntensity(0.2f);
-        return set
     }
 
     override fun onCreateView(
@@ -197,16 +227,29 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                 id: Long
             ) {
                 if(stazioniList[position].contains("Pluviometro")) {
-
+                    // TODO
                 }
 
-                val idx = 0
                 for(flood in floodList.features) {
                     if(flood.properties.stazione == stazioniList[position] && flood.properties.bacino == bacino) {
+                        currentStation = flood.properties.idsensore.toString()
+
+                        if(oldPrefStation == currentStation) {
+                            binding.pref.setImageResource(R.drawable.ic_star_full)
+                        } else {
+                            binding.pref.setImageResource(R.drawable.ic_star)
+                        }
+
                         viewModel.getRiverSensorData(flood.properties.idsensore.toString(), "0").observe(viewLifecycleOwner) {
                             val data = extractAPIData(it.body()!!)
                             setGraph(data!!)
+                            binding.btnSwitchView.visibility = View.VISIBLE
+                            binding.chart1.visibility = View.VISIBLE
+                            binding.pref.visibility = View.VISIBLE
+                            dataRecyclerView.addAll(data)
+                            floodsDataAdapter.notifyDataSetChanged()
                         }
+
                         return
                     }
                 }

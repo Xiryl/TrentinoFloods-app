@@ -14,4 +14,5 @@
     <color name="color_card_map">#DEF0FC</color>
     <color name="color_card_recent">#FCEEE7</color>
     <color name="color_card_alert">#E3F9E6</color>
+    <color name="blue">#1165F7</color>
 </resources>

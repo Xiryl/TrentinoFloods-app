@@ -8,8 +8,8 @@
     <string name="card_map_title">Mappa Floods</string>
     <string name="card_search_title">Ricerca</string>
     <string name="card_search_subtitle">Visualizza i sensori attraverso una ricerca</string>
-    <string name="card_recent_title">Recente</string>
-    <string name="card_recent_subtitle">Visualizza i sensori dell\'ultima ricerca</string>
+    <string name="card_recent_title">Preferito</string>
+    <string name="card_recent_subtitle">Visualizza i dati del sensore preferito</string>
     <string name="card_alert_title">Allerte PAT</string>
     <string name="card_alert_subtitle">Visualizza le ultime allerte emanate</string>
     <string name="bottom_sheet_title"><![CDATA[Info & Aiuto]]></string>
