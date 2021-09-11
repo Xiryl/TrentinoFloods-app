@@ -137,13 +137,28 @@
         style="@style/StyleBtnBlue"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="Vista Tabella"
-        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_switch_graph" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_switch_graph"
+        style="@style/StyleBtnBlue"
+        android:layout_width="0dp"
+        android:paddingStart="4dp"
+        android:visibility="gone"
+        android:paddingEnd="4dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:drawableStart="@drawable/ic_chart"
+        android:text="Livello"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

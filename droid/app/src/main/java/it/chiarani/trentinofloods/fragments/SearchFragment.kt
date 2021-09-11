@@ -19,6 +19,7 @@ import com.github.mikephil.charting.components.YAxis
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
+import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import com.google.gson.Gson
 import it.chiarani.trentinofloods.R
 import it.chiarani.trentinofloods.adapters.FloodsDataAdapter
@@ -46,7 +47,9 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
     private var isCharView = false
     private lateinit var floodsDataAdapter: FloodsDataAdapter
     private var dataRecyclerView = mutableListOf<String>()
+    private var graphV = false
     private var currentStation = ""
+    private var currentBacino = ""
     private var oldPrefStation = ""
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -77,6 +80,54 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
             isCharView = !isCharView
         }
 
+        binding.btnSwitchGraph.setOnClickListener {
+
+            for(flood in floodList.features) {
+                if (flood.properties.idsensore.toString() == currentStation && flood.properties.bacino == currentBacino) {
+                    if(flood.properties.linkdati.contains("Sensore2=NULL")) {
+                        Toast.makeText(requireContext(), "Unico sensore: LIVELLO", Toast.LENGTH_LONG).show()
+                        break
+                    }
+
+                     if(graphV) {
+                         viewModel.getRiverSensorData(flood.properties.idsensore.toString(), "0")
+                             .observe(
+                                 viewLifecycleOwner
+                             ) {
+                                 val data = extractAPIData(it.body()!!)
+                                 setGraph(data!!, "#1B7DFB")
+                                 binding.btnSwitchView.visibility = View.VISIBLE
+                                 binding.btnSwitchGraph.visibility = View.VISIBLE
+                                 binding.chart1.visibility = View.VISIBLE
+                                 binding.pref.visibility = View.VISIBLE
+                                 dataRecyclerView.clear()
+                                 dataRecyclerView.addAll(data.reversed())
+                                 floodsDataAdapter.notifyDataSetChanged()
+                             }
+                         binding.btnSwitchGraph.text = "LIVELLO"
+                     } else {
+                         val idSensor2 = flood.properties.linkdati.split("&")[2].split("=")[1]
+                         viewModel.getRiverSensorData(idSensor2, "0")
+                             .observe(
+                                 viewLifecycleOwner
+                             ) {
+                                 val data = extractAPIData(it.body()!!)
+                                 setGraph(data!!, "#1B7DFB")
+                                 binding.btnSwitchView.visibility = View.VISIBLE
+                                 binding.btnSwitchGraph.visibility = View.VISIBLE
+                                 binding.chart1.visibility = View.VISIBLE
+                                 binding.pref.visibility = View.VISIBLE
+                                 dataRecyclerView.clear()
+                                 dataRecyclerView.addAll(data.reversed())
+                                 floodsDataAdapter.notifyDataSetChanged()
+                             }
+                         binding.btnSwitchGraph.text = "PORTATA"
+                     }
+                    graphV = !graphV
+                }
+            }
+        }
+
         floodsDataAdapter = FloodsDataAdapter(dataRecyclerView)
 
         binding.recyclerViewFloodData.apply {
@@ -104,7 +155,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
     }
 
 
-    private fun setGraph(model: List<String>) {
+    private fun setGraph(model: List<String>, hexColor: String) {
         val entries: MutableList<Entry> = ArrayList()
         for (line in model) {
             // turn your data into Entry objects
@@ -122,16 +173,15 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         val dataSet = LineDataSet(entries, "Grafico Andamento")
         dataSet.setAxisDependency(YAxis.AxisDependency.LEFT);
         dataSet.setLineWidth(3f);
-        dataSet.setColor(Color.parseColor("#1B7DFB"));
+        dataSet.setColor(Color.parseColor(hexColor));
         dataSet.setHighlightEnabled(false);
         dataSet.setDrawValues(false);
         dataSet.setDrawCircles(false);
         dataSet.setMode(LineDataSet.Mode.CUBIC_BEZIER);
-        dataSet.setCubicIntensity(0.2f);
-
-        val lineData = LineData(dataSet)
+        dataSet.setCubicIntensity(0.2f)
         binding.chart1.getXAxis().setValueFormatter(CustomDateFormatter())
 
+        val lineData = LineData(dataSet)
         binding.chart1.getDescription().setText("Grafico andamento")
         binding.chart1.getAxisLeft().setDrawGridLines(false)
         binding.chart1.getXAxis().setDrawGridLines(false)
@@ -227,12 +277,41 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                 id: Long
             ) {
                 if(stazioniList[position].contains("Pluviometro")) {
-                    // TODO
+                    for(flood in floodList.features) {
+                        if(flood.properties.stazione == stazioniList[position].dropLast(14) && flood.properties.bacino == bacino) {
+                            currentStation = flood.properties.idsensore.toString()
+                            currentBacino = bacino
+
+                            if(oldPrefStation == currentStation) {
+                                binding.pref.setImageResource(R.drawable.ic_star_full)
+                            } else {
+                                binding.pref.setImageResource(R.drawable.ic_star)
+                            }
+
+                            viewModel.getRiverSensorData(flood.properties.idsensore.toString(), "0")
+                                .observe(
+                                    viewLifecycleOwner
+                                ) {
+                                    val data = extractAPIData(it.body()!!)
+                                    setGraph(data!!, "#1B7DFB")
+                                    binding.btnSwitchView.visibility = View.VISIBLE
+                                    binding.btnSwitchGraph.visibility = View.VISIBLE
+                                    binding.chart1.visibility = View.VISIBLE
+                                    binding.pref.visibility = View.VISIBLE
+                                    dataRecyclerView.clear()
+                                    dataRecyclerView.addAll(data.reversed())
+                                    floodsDataAdapter.notifyDataSetChanged()
+                                }
+                            return
+                        }
+                    }
+
                 }
 
                 for(flood in floodList.features) {
                     if(flood.properties.stazione == stazioniList[position] && flood.properties.bacino == bacino) {
                         currentStation = flood.properties.idsensore.toString()
+                        currentBacino = bacino
 
                         if(oldPrefStation == currentStation) {
                             binding.pref.setImageResource(R.drawable.ic_star_full)
@@ -240,16 +319,20 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                             binding.pref.setImageResource(R.drawable.ic_star)
                         }
 
-                        viewModel.getRiverSensorData(flood.properties.idsensore.toString(), "0").observe(viewLifecycleOwner) {
-                            val data = extractAPIData(it.body()!!)
-                            setGraph(data!!)
-                            binding.btnSwitchView.visibility = View.VISIBLE
-                            binding.chart1.visibility = View.VISIBLE
-                            binding.pref.visibility = View.VISIBLE
-                            dataRecyclerView.addAll(data)
-                            floodsDataAdapter.notifyDataSetChanged()
-                        }
-
+                        viewModel.getRiverSensorData(flood.properties.idsensore.toString(), "0")
+                            .observe(
+                                viewLifecycleOwner
+                            ) {
+                                val data = extractAPIData(it.body()!!)
+                                setGraph(data!!, "#1B7DFB")
+                                binding.btnSwitchView.visibility = View.VISIBLE
+                                binding.btnSwitchGraph.visibility = View.VISIBLE
+                                binding.chart1.visibility = View.VISIBLE
+                                binding.pref.visibility = View.VISIBLE
+                                dataRecyclerView.clear()
+                                dataRecyclerView.addAll(data.reversed())
+                                floodsDataAdapter.notifyDataSetChanged()
+                            }
                         return
                     }
                 }
