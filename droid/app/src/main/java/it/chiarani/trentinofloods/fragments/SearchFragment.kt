@@ -104,7 +104,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                                  dataRecyclerView.addAll(data.reversed())
                                  floodsDataAdapter.notifyDataSetChanged()
                              }
-                         binding.btnSwitchGraph.text = "LIVELLO"
+                         binding.btnSwitchGraph.text = "Attuale: LIVELLO"
                      } else {
                          val idSensor2 = flood.properties.linkdati.split("&")[2].split("=")[1]
                          viewModel.getRiverSensorData(idSensor2, "0")
@@ -121,7 +121,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
                                  dataRecyclerView.addAll(data.reversed())
                                  floodsDataAdapter.notifyDataSetChanged()
                              }
-                         binding.btnSwitchGraph.text = "PORTATA"
+                         binding.btnSwitchGraph.text = "Attuale: PORTATA"
                      }
                     graphV = !graphV
                 }
@@ -149,6 +149,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
             } else {
                 binding.pref.setImageResource(R.drawable.ic_star_full)
                 sp.edit().putString(Constants.PREF_KEY_PREF_STATION.toString(), currentStation).apply()
+                sp.edit().putString(Constants.PREF_KEY_PREF_BACINO.toString(), currentBacino).apply()
                 Toast.makeText(requireContext(), "Salvato come preferito!", Toast.LENGTH_LONG).show()
             }
         }

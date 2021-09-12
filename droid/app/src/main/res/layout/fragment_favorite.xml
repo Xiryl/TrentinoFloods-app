@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.SearchFragment">
+    tools:context=".fragments.FavoriteFragment">
 
     <!-- TopBar -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-5dp"
-        android:background="@drawable/bg_card_search"
-        android:transitionName="cl_card_search_transition"
+        android:background="@drawable/bg_card_recent"
+        android:transitionName="cl_card_favorite_transition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -30,107 +30,49 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/pref"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="24dp"
-            android:src="@drawable/ic_star"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/card_search_title"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/card_search_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
             android:fontFamily="@font/roboto_bold"
             android:gravity="center"
-            android:text="@string/card_search_title"
+            android:text="@string/card_recent_title"
             android:textColor="@color/violetblue"
             android:textSize="24sp"
-            app:layout_constraintEnd_toStartOf="@+id/pref"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/card_search_icon"
             app:layout_constraintTop_toTopOf="@+id/card_search_icon" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <!-- END TopBar -->
-    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
-        android:id="@+id/spinner_bacini"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cl_card_search"
-        app:smsp_floatingLabelColor="@color/violetblue"
-        app:smsp_floatingLabelText="Bacino"
-        app:smsp_hint="Seleziona un bacino"
-        app:smsp_hintColor="@color/gray"
-        app:smsp_isSearchable="true"
-        app:smsp_itemColor="@color/black"
-        app:smsp_itemListColor="@color/gray"
-        app:smsp_itemListHintBackgroundColor="#808080"
-        app:smsp_itemListHintColor="#FF00ff"
-        app:smsp_multilineError="true"
-        app:smsp_searchHeaderBackgroundColor="@color/violetblue"
-        app:smsp_searchHeaderText="Cerca / Seleziona un bacino"
-        app:smsp_selectedItemListColor="@color/violetblue" />
-
-    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
-        android:id="@+id/spinner_stazione"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_bacini"
-        app:smsp_floatingLabelColor="@color/violetblue"
-        app:smsp_floatingLabelText="Stazione"
-        app:smsp_hint="Seleziona una stazione"
-        app:smsp_hintColor="@color/gray"
-        app:smsp_isSearchable="true"
-        app:smsp_itemColor="@color/black"
-        app:smsp_itemListColor="@color/gray"
-        app:smsp_itemListHintBackgroundColor="#808080"
-        app:smsp_itemListHintColor="#FF00ff"
-        app:smsp_multilineError="true"
-        app:smsp_searchHeaderBackgroundColor="@color/violetblue"
-        app:smsp_searchHeaderText="Cerca / Seleziona una Stazione"
-        app:smsp_selectedItemListColor="@color/violetblue" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_flood_data"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/btn_switch_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_stazione" />
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_search" />
 
 
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/chart1"
-        android:visibility="gone"
         android:layout_width="match_parent"
+        android:visibility="gone"
         android:layout_height="0dp"
         android:layout_margin="8dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_switch_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_stazione" />
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_search" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_switch_view"

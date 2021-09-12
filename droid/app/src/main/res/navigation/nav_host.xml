@@ -13,10 +13,26 @@
             android:id="@+id/action_homefragment_to_searchfragment"
             app:destination="@id/SearchFragment"
             app:popUpTo="@id/HomeFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_favoriteFragment"
+            app:destination="@id/FavoriteFragment"
+            app:popUpTo="@id/HomeFragment"/>
     </fragment>
     <fragment
         android:id="@+id/SearchFragment"
         android:name="it.chiarani.trentinofloods.fragments.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/FavoriteFragment"
+        android:name="it.chiarani.trentinofloods.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <argument
+            android:name="stationName"
+            app:argType="string" />
+        <argument
+            android:name="bacinoName"
+            app:argType="string" />
+    </fragment>
 </navigation>
