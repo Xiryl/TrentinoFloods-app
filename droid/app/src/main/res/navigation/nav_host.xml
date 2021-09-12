@@ -17,6 +17,10 @@
             android:id="@+id/action_HomeFragment_to_favoriteFragment"
             app:destination="@id/FavoriteFragment"
             app:popUpTo="@id/HomeFragment"/>
+        <action
+            android:id="@+id/action_HomeFragment_to_allertsFragment"
+            app:popUpTo="@id/HomeFragment"
+            app:destination="@id/AllertsFragment" />
     </fragment>
     <fragment
         android:id="@+id/SearchFragment"
@@ -35,4 +39,9 @@
             android:name="bacinoName"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/AllertsFragment"
+        android:name="it.chiarani.trentinofloods.fragments.AllertsFragment"
+        android:label="fragment_allerts"
+        tools:layout="@layout/fragment_allerts" />
 </navigation>

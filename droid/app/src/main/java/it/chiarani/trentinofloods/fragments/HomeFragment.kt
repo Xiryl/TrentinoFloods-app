@@ -70,6 +70,20 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             )
         }
 
+        val extra3 = FragmentNavigator.Extras.Builder()
+            .addSharedElement(binding.clCardAlert, "cl_card_allerts_transition")
+            .build()
+
+        binding.clCardAlert.setOnClickListener { view ->
+            hideBottomSheet()
+            view.findNavController().navigate(
+                R.id.action_HomeFragment_to_allertsFragment,
+                null,
+                null,
+                extra3
+            )
+        }
+
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
     }
 
