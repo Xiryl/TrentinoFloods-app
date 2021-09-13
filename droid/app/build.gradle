@@ -99,6 +99,24 @@ dependencies {
     implementation 'com.github.chivorns:smartmaterialspinner:1.5.0'
 
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    // jsoup
+    // https://jsoup.org/download
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    // textdrawable
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+
+    //RxJava adapter
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+    //RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.17'
+    //RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+
+    // lottie
+    implementation 'com.airbnb.android:lottie:3.6.1'
 }
 
 kapt {

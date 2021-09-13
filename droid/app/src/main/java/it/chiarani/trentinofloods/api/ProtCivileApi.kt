@@ -3,7 +3,6 @@ package it.chiarani.trentinofloods.api
 import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET
-import java.util.*
 
 interface ProtCivileApi {
     companion object {
@@ -11,5 +10,5 @@ interface ProtCivileApi {
     }
 
     @GET("elencoavvisi.aspx")
-    fun getAllert(): Response<ResponseBody>
+    suspend fun getAllert(): Response<ResponseBody>
 }

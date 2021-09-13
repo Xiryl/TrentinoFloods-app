@@ -62,19 +62,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cl_card_search" />
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/fragment_avalanche_anim_load"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_search_pref_name"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/anim_download" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_allert_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btn_switch_graph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_search_pref_name" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_switch_graph"
-        style="@style/StyleBtnBlue"
+        style="@style/StyleBtnRed"
         android:layout_width="0dp"
-        android:paddingStart="4dp"
-        android:visibility="gone"
-        android:paddingEnd="4dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="16dp"
-        android:drawableStart="@drawable/ic_chart"
-        android:text="Attuale: Livello"
+        android:drawableStart="@drawable/ic_emergency"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Numero Emergenze: 112"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

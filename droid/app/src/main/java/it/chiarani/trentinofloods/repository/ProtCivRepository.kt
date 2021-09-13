@@ -5,6 +5,7 @@ import it.chiarani.trentinofloods.api.ProtCivileApi
 import kotlinx.coroutines.flow.flow
 import okhttp3.ResponseBody
 import retrofit2.Response
+import retrofit2.http.Body
 import javax.inject.Inject
 
 class ProtCivRepository @Inject constructor(
