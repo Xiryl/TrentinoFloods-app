@@ -1,9 +1,12 @@
 package it.chiarani.trentinofloods.fragments
 
+import android.content.Intent
 import android.content.SharedPreferences
+import android.net.Uri
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.View
+import androidx.appcompat.widget.AppCompatButton
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
@@ -85,6 +88,22 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
+
+
+        val btnTg = binding.root.findViewById<AppCompatButton>(R.id.btn_tg)
+        val btnHelp = binding.root.findViewById<AppCompatButton>(R.id.btn_help)
+        btnTg.setOnClickListener {
+            launchTelegram()
+        }
+        btnHelp.setOnClickListener {
+            hideBottomSheet()
+            view.findNavController().navigate(
+                R.id.action_HomeFragment_to_helpFragment,
+                null,
+                null,
+                null
+            )
+        }
     }
 
     override fun onResume() {
@@ -102,5 +121,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         bottomSheetBehavior.state = BottomSheetBehavior.STATE_DRAGGING
     }
 
+
+    private fun launchTelegram() {
+        val i = Intent(Intent.ACTION_VIEW)
+        i.data = Uri.parse("https://t.me/Xiryl")
+        requireActivity().startActivity(i)
+    }
 
 }

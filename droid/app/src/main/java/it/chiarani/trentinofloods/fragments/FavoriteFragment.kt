@@ -38,7 +38,6 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
     private lateinit var binding: FragmentFavoriteBinding
     private val viewModel: FloodsViewModel by activityViewModels()
 
-
     private lateinit var sp: SharedPreferences
     private lateinit var floodList : SensorData
     private var isCharView = false

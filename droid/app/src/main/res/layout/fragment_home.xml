@@ -334,6 +334,6 @@
 
     <include
         android:id="@+id/imported_bottom_sheet"
-        layout="@layout/bottom_sheet" />
+        layout="@layout/fragment_bottom_sheet" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
