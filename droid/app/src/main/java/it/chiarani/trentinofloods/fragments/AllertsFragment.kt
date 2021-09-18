@@ -1,5 +1,7 @@
 package it.chiarani.trentinofloods.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.transition.ChangeBounds
 import android.view.LayoutInflater
@@ -12,16 +14,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import it.chiarani.trentinofloods.R
 import it.chiarani.trentinofloods.adapters.AllertAdapter
+import it.chiarani.trentinofloods.adapters.OnItemClickListener
 import it.chiarani.trentinofloods.data.AllertItem
 import it.chiarani.trentinofloods.databinding.FragmentAllertsBinding
 import it.chiarani.trentinofloods.viewModels.ProtCivViewModel
-import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.select.Elements
 import java.util.*
 
 
-class AllertsFragment : Fragment(R.layout.fragment_allerts) {
+class AllertsFragment : Fragment(R.layout.fragment_allerts), OnItemClickListener {
 
     private lateinit var binding: FragmentAllertsBinding
     private val allertItems = mutableListOf<AllertItem>()
@@ -73,7 +75,7 @@ class AllertsFragment : Fragment(R.layout.fragment_allerts) {
                 if (counter >= 10) break
             }
 
-            val mAdapter = AllertAdapter(allertItems)
+            val mAdapter = AllertAdapter(allertItems, this)
             val linearLayoutManagerTags = LinearLayoutManager(
                 requireActivity().applicationContext
             )
@@ -100,6 +102,12 @@ class AllertsFragment : Fragment(R.layout.fragment_allerts) {
             duration = 750
         }
         return super.onCreateView(inflater, container, savedInstanceState)
+    }
+
+    override fun onItemClick(position: Int) {
+        val i = Intent(Intent.ACTION_VIEW)
+        i.data = Uri.parse(allertItems[position].link)
+        startActivity(i)
     }
 
 }

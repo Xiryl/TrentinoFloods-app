@@ -14,7 +14,7 @@ import it.chiarani.trentinofloods.databinding.ItemFloodDataBinding
 import java.lang.String
 
 
-class AllertAdapter(private val data: List<AllertItem>)
+class AllertAdapter(private val data: List<AllertItem>, private val onItemClickListener: OnItemClickListener)
     :RecyclerView.Adapter<AllertAdapter.DataViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DataViewHolder {
@@ -26,6 +26,11 @@ class AllertAdapter(private val data: List<AllertItem>)
     override fun getItemCount() = data.size
 
     override fun onBindViewHolder(holder: DataViewHolder, position: Int) {
+
+        holder.binding.root.setOnClickListener {
+            onItemClickListener.onItemClick(position)
+        }
+
         with(holder){
             with(data[position]) {
                 binding.itemAllertTxtDate.text = String.format(
