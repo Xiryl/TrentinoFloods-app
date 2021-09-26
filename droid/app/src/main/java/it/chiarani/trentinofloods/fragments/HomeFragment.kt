@@ -87,6 +87,21 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             )
         }
 
+
+        val extra4 = FragmentNavigator.Extras.Builder()
+            .addSharedElement(binding.clCardMapFloods, "cl_card_map_transition")
+            .build()
+
+        binding.clCardMapFloods.setOnClickListener { view ->
+            hideBottomSheet()
+            view.findNavController().navigate(
+                R.id.action_HomeFragment_to_mapFragment,
+                null,
+                null,
+                extra4
+            )
+        }
+
         bottomSheetBehavior = BottomSheetBehavior.from(binding.root.findViewById(R.id.imported_bottom_sheet))
 
 

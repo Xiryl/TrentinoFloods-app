@@ -25,6 +25,10 @@
             android:id="@+id/action_HomeFragment_to_helpFragment"
             app:popUpTo="@id/HomeFragment"
             app:destination="@id/HelpFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_mapFragment"
+            app:popUpTo="@id/HomeFragment"
+            app:destination="@id/mapFragment" />
     </fragment>
     <fragment
         android:id="@+id/SearchFragment"
@@ -53,4 +57,9 @@
         android:name="it.chiarani.trentinofloods.fragments.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="it.chiarani.trentinofloods.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 </navigation>
