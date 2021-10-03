@@ -20,7 +20,6 @@ import it.chiarani.trentinofloods.databinding.FragmentAllertsBinding
 import it.chiarani.trentinofloods.viewModels.ProtCivViewModel
 import org.jsoup.nodes.Document
 import org.jsoup.select.Elements
-import java.util.*
 
 
 class AllertsFragment : Fragment(R.layout.fragment_allerts), OnItemClickListener {
@@ -36,6 +35,12 @@ class AllertsFragment : Fragment(R.layout.fragment_allerts), OnItemClickListener
 
         binding.cardSearchIcon.setOnClickListener {
             findNavController().popBackStack()
+        }
+
+        binding.btnSwitchGraph.setOnClickListener {
+            val intent = Intent(Intent.ACTION_DIAL)
+            intent.data = Uri.parse("tel:112")
+            startActivity(intent)
         }
 
         viewModel.getAllerts().observe(viewLifecycleOwner) {

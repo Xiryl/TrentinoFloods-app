@@ -108,12 +108,16 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        sharedElementEnterTransition = ChangeBounds().apply {
-            duration = 750
-        }
-        sharedElementReturnTransition = ChangeBounds().apply {
-            duration = 750
-        }
+//        try {
+//        sharedElementEnterTransition = ChangeBounds().apply {
+//            duration = 750
+//        }
+//        sharedElementReturnTransition = ChangeBounds().apply {
+//            duration = 750
+//        }}
+//        catch (ex: Exception) {
+//
+//        }
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 
@@ -122,7 +126,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
             if (flood.properties.idsensore.toString() == currentStation && flood.properties.bacino == currentBacino) {
                 if(flood.properties.linkdati.contains("Sensore2=NULL")) {
                     Toast.makeText(requireContext(), "Unico sensore: LIVELLO", Toast.LENGTH_LONG).show()
-                    break
+                    graphV = true
                 }
 
 
@@ -144,6 +148,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
                         }
                     binding.btnSwitchGraph.text = "Attuale: LIVELLO"
                 } else {
+
                     val idSensor2 = flood.properties.linkdati.split("&")[2].split("=")[1]
                     viewModel.getRiverSensorData(idSensor2, "0")
                         .observe(
