@@ -107,6 +107,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val btnTg = binding.root.findViewById<AppCompatButton>(R.id.btn_tg)
         val btnHelp = binding.root.findViewById<AppCompatButton>(R.id.btn_help)
+        val btnInfo = binding.root.findViewById<AppCompatButton>(R.id.btn_app_info)
         btnTg.setOnClickListener {
             launchTelegram()
         }
@@ -114,6 +115,15 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             hideBottomSheet()
             view.findNavController().navigate(
                 R.id.action_HomeFragment_to_helpFragment,
+                null,
+                null,
+                null
+            )
+        }
+        btnInfo.setOnClickListener{
+            hideBottomSheet()
+            view.findNavController().navigate(
+                R.id.action_HomeFragment_to_infoFragment,
                 null,
                 null,
                 null
@@ -139,7 +149,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun launchTelegram() {
         val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse("https://t.me/Xiryl")
+        i.data = Uri.parse("https://t.me/MeteoTrentinoBot")
         requireActivity().startActivity(i)
     }
 
